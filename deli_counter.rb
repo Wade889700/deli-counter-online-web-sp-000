@@ -10,6 +10,6 @@ def line(array)
         my_array.push("#{a}. #{array[counter]}")
         counter += 1
       end
-    return start_line.join
+    puts start_line.join
   end
 end
