@@ -16,7 +16,7 @@ def line(array)
 end
 
 def take_a_number(array,name)
-  index = array.index(name)
+  index = array.index()
   my_array = ["Welcome, #{name}. You are number #{index} in line."]
   puts my_array.join
 end
