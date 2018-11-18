@@ -17,7 +17,7 @@ end
 
 def take_a_number(array,name)
   if array.size == 0
-    puts my_array = ["Welcome, #{name}. You are number #{index} in line."].join
+    puts my_array = ["Welcome, #{name}. You are number 1 in line."].join
   end
   index = array.index(name).to_i + 1
   my_array = ["Welcome, #{name}. You are number #{index} in line."]
