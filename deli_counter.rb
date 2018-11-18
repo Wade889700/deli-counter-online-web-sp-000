@@ -16,5 +16,7 @@ def line(array)
 end
 
 def take_a_number(array,name)
-
+  counter = 0
+  my_array = []
+  
 end
