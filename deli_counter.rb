@@ -22,7 +22,7 @@ def take_a_number(array,name)
     puts my_array
   else
     array.push(name)
-    index = array.size-1
+    index = array.size
     my_array = ["Welcome, #{name}. You are number #{index} in line."]
     puts my_array.join
   end
