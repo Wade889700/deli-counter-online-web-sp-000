@@ -16,11 +16,7 @@ def line(array)
 end
 
 def take_a_number(array,name)
-  counter = 0
-  my_array = []
-  while counter < array.size
-    my_array.push(array[counter])
-    counter += 1
-  end
-  puts my_array.join
+  index = array.index(name)+1
+  my_array = ["Welcome, #{name}. You are number #{index} in line."] 
+
 end
