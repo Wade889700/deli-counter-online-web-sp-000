@@ -17,6 +17,5 @@ end
 
 def take_a_number(array,name)
   index = array.index(name)+1
-  my_array = ["Welcome, #{name}. You are number #{index} in line."] 
-
+  puts my_array = ["Welcome, #{name}. You are number #{index} in line."] 
 end
