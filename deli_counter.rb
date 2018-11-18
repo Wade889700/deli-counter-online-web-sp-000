@@ -20,7 +20,7 @@ def take_a_number(array,name)
     my_array = ["Welcome, #{name}. You are number 1 in line."]
     puts my_array
   else
-    index = array.index(name).to_i + 1
+    index = array.index(name).to_i + 4
     my_array = ["Welcome, #{name}. You are number #{index} in line."]
     puts my_array.join
   end
