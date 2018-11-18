@@ -19,7 +19,7 @@ def take_a_number(array,name)
   if array.size == 0
     array.push(name)
     my_array = ["Welcome, #{name}. You are number 1 in line."]
-    puts my_array
+    puts my_array.join
   else
     array.push(name)
     index = array.size
