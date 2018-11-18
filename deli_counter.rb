@@ -14,3 +14,7 @@ def line(array)
     puts final_result.join
   end
 end
+
+def take_a_number
+
+end
