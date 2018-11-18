@@ -22,5 +22,5 @@ def take_a_number(array,name)
     my_array.push(array[counter])
     counter += 1
   end
-  puts my_array
+  puts my_array.join
 end
