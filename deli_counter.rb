@@ -5,7 +5,7 @@ def line(array)
     counter = 0
     my_array = []
     start_line=["The line is currently:"]
-      while counter < array.size-1
+      while counter < array.size
         a = counter + 1
         my_array.push(" #{a}. #{array[counter]}")
         counter += 1
