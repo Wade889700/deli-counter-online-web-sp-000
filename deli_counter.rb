@@ -27,3 +27,7 @@ def take_a_number(array,name)
     puts my_array.join
   end
 end
+
+def now_serving
+  
+end
